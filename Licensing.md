@@ -11,9 +11,9 @@ codeAttack es un laboratorio abierto, donde se fomenta el aprendizaje. Las ideol
 
 ## ¿Por qué es importante licenciar el contenido que publicamos?
 
-Si no tenemos experiencia con la ley de _copyright_[1], podemos suponer por error que todo lo que publicamos es de uso libre, salvo que lo inscribamos en el registro de la Propiedad Intelectual. La realidad es la contraria: si creamos y publicamos contenido original, automáticamente estará protegido por la ley, incluso si no lo registramos explícitamente. Esto es así en todos los países que firmaron el [convenio de Berna](https://es.wikipedia.org/wiki/Convenio_de_Berna_para_la_Protecci%C3%B3n_de_las_Obras_Literarias_y_Art%C3%ADsticas), prácticamente todo el mundo actual con pocas excepciones.
+Si no tenemos experiencia con la ley de _copyright_[1], podemos suponer por error que todo lo que publicamos es de uso libre, salvo que lo inscribamos en el [Registro de la Propiedad Intelectual](http://www.culturaydeporte.gob.es/cultura-mecd/areas-cultura/propiedadintelectual/registro-de-la-propiedad-intelectual/objeto.html). La realidad es la contraria: si creamos y publicamos contenido original, automáticamente estará protegido por la ley, incluso si no lo registramos explícitamente. Esto es así en todos los países que firmaron el [convenio de Berna](https://es.wikipedia.org/wiki/Convenio_de_Berna_para_la_Protecci%C3%B3n_de_las_Obras_Literarias_y_Art%C3%ADsticas), prácticamente todo el mundo actual con pocas excepciones.
 
-El registro es voluntario y puede ser conveniente en algunos casos, puesto que constituye una prueba formal de la autoría de una obra. Pero es importante destacar que, por el simple hecho de publicar contenido, ya está protegido por la ley. Y si no lo licenciamos, **nadie tiene permiso**[2].
+El registro es voluntario y puede ser conveniente en algunos casos, puesto que constituye una prueba formal de la autoría de una obra. Pero es importante destacar que, por el simple hecho de publicar contenido, ya está protegido por la ley. Y si no lo licenciamos, **nadie tiene permiso**, y puede que con el tiempo tampoco nosotros mismos[2].
 
 En nuestro caso, en codeAttack, normalmente podemos suponer que nuestros compañeros nos han concedido permiso para utilizar su contenido dentro del grupo, aunque sea un permiso verbal sin formalizar. Pero a veces conviene ser más explícitos, especialmente cuando el contenido se comparte en un repositorio de acceso público.
 
@@ -21,7 +21,7 @@ En nuestro caso, en codeAttack, normalmente podemos suponer que nuestros compañ
 
 **[1]** En españa, el _copyright_ está formulado dentro del texto de la Ley de Propiedad Intelectual (LPI), que se puede [consultar en el BOE](https://www.boe.es/legislacion/codigos/codigo.php?id=087).
 
-**[2]** Incluso podría ocurrir que ni siquiera nosotros mismos, en concreto cuando el repositorio es público y contribuyen otras personas. La web [Choose a License](https://choosealicense.com/), creada por [github](https://github.com/), explica con más detalle el [problema de no licenciar el contenido](https://choosealicense.com/no-permission/).
+**[2]** En concreto cuando el repositorio es público y contribuyen otras personas. La web [Choose a License](https://choosealicense.com/), creada por [github](https://github.com/), explica con más detalle el [problema de no licenciar el contenido](https://choosealicense.com/no-permission/).
 
 
 ## ¿Qué es una licencia?
@@ -78,7 +78,7 @@ Un ejemplo cercano: [Godot](https://godotengine.org/) se distribuye con licencia
 
 No es obligatorio. En ocasiones puede que queramos publicar nuestro contenido con ciertas restricciones, o puede que no queramos publicarlo y mantenerlo para uso interno de codeAttack únicamente. Es una decisión personal.
 
-Sin embargo, si integramos contenido restrictivo dentro de un proyecto abierto, estamos condicionando los términos de distribución y uso del proyecto en su conjunto. Por ese motivo, y para evitar malentendidos entre los distintos participantes, conviene manifestar claramente nuestros términos __antes__ de integrar el contenido en un repositorio.
+Sin embargo, si integramos contenido restrictivo dentro de un proyecto abierto, estamos condicionando los términos de distribución y uso del proyecto en su conjunto. Por ese motivo, y para evitar malentendidos entre los distintos participantes, conviene manifestar claramente nuestros términos **antes de integrar el contenido en un repositorio**
 
 
 ## ¿Qué tengo que hacer para publicar mi contenido bajo una licencia libre?

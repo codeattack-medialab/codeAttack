@@ -46,7 +46,7 @@ Como su nombre sugiere, lo más habitual es que un _static body_ esté en una po
 
 Por un lado tenemos objetos de tipo _rigid body_, cuya física y movimiento está calculada por Godot. Por otro lado, los objetos _static body_ definen el escenario. ¿Qué tipo de objeto debería ser el protagonista controlado por el jugador? Podría ser un _rigid body_ en algunos casos, pero en otros necesitaríamos un control más directo del movimiento y un _rigid body_ sería una complicación más que una ayuda. El ejemplo habitual para un _kinematic body_ sería el protagonista de un juego de plataformas clásico.
 
-Un objeto de tipo _kinematic body_ no se mueve automáticamente; Godot no calcula las interacciones físicas, ni la gravedad, y en ese sentido podría parecerse a un _static body_. A diferencia de un _static body_, está pensado para moverse, colisionar e interactuar con otros cuerpos. Godot proporciona funciones que facilitan esa tarea.
+Un objeto de tipo _kinematic body_ no se mueve automáticamente; Godot no calcula las interacciones físicas, ni la gravedad, y en ese sentido podría parecerse a un _static body_. A diferencia de un _static body_, está pensado para moverse, colisionar e interactuar con otros cuerpos. Godot proporciona funciones que facilitan esa tarea, pero no se activan automáticamente, requieren la creación de un script.
 
 
 ## Area2D
@@ -58,4 +58,4 @@ Un objeto de este tipo no es un cuerpo físico y no colisiona con otros cuerpos,
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
-© 2018. Documento creado por roberto@zenvoid.org para codeAttack, publicado bajo licencia [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+© 2018. Documento creado por roberto@zenvoid.org, publicado bajo licencia Creative Commons Attribution 4.0.
