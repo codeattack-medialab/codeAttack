@@ -13,7 +13,7 @@ codeAttack es un laboratorio abierto, donde se fomenta el aprendizaje. Las ideol
 
 Si no tenemos experiencia con la ley de _copyright_[1], podemos suponer por error que todo lo que publicamos es de uso libre, salvo que lo inscribamos en el [Registro de la Propiedad Intelectual](http://www.culturaydeporte.gob.es/cultura-mecd/areas-cultura/propiedadintelectual/registro-de-la-propiedad-intelectual/objeto.html). La realidad es la contraria: si creamos y publicamos contenido original, automáticamente estará protegido por la ley, incluso si no lo registramos explícitamente. Esto es así en todos los países que firmaron el [convenio de Berna](https://es.wikipedia.org/wiki/Convenio_de_Berna_para_la_Protecci%C3%B3n_de_las_Obras_Literarias_y_Art%C3%ADsticas), prácticamente todo el mundo actual con pocas excepciones.
 
-El registro es voluntario y puede ser conveniente en algunos casos, puesto que constituye una prueba formal de la autoría de una obra. Pero es importante destacar que, por el simple hecho de publicar contenido, ya está protegido por la ley. Y si no lo licenciamos, **nadie tiene permiso**, y puede que con el tiempo tampoco nosotros mismos[2].
+El registro es voluntario y puede ser conveniente en algunos casos, puesto que constituye una prueba formal de la autoría de una obra. Pero es importante destacar que, por el simple hecho de publicar contenido, ya está protegido por la ley. Si no lo licenciamos, **nadie tiene permiso**, y puede que con el tiempo tampoco nosotros mismos[2].
 
 En nuestro caso, en codeAttack, normalmente podemos suponer que nuestros compañeros nos han concedido permiso para utilizar su contenido dentro del grupo, aunque sea un permiso verbal sin formalizar. Pero a veces conviene ser más explícitos, especialmente cuando el contenido se comparte en un repositorio de acceso público.
 
@@ -26,11 +26,11 @@ En nuestro caso, en codeAttack, normalmente podemos suponer que nuestros compañ
 
 ## ¿Qué es una licencia?
 
-Ya sabemos que necesitamos una licencia para nuestro contenido, especialmente si queremos que sea libre. Pero, ¿qué es una licencia?
+Ya sabemos que necesitamos una licencia para nuestro contenido, especialmente si queremos que sea libre. Según hemos visto en el apartado anterior, si no concedemos una licencia, nadie tiene permiso para hacer nada. Pero, ¿qué es una licencia?
 
 Una licencia consiste en otorgar permiso a alguien para que haga algo con nuestra obra. Imaginemos, por ejemplo, que queremos conceder permiso a una agencia de publicidad para que haga uso de uno de nuestros dibujos en sus anuncios, posiblemente a cambio de una compensación económica.
 
-Según hemos visto en el apartado anterior, si no concedemos una licencia, nadie tiene permiso para hacer nada. Eso es el funcionamiento predeterminado del _copyright_. Como autores, también podemos conseguir el efecto contrario: otorgar permiso general a todo el mundo para que cualquiera pueda hacer lo que quiera con nuestra obra. Eso es lo que hacen los autores de software libre[1].
+Eso es el funcionamiento predeterminado del _copyright_. Como autores, también podemos conseguir el efecto contrario: otorgar permiso general a todo el mundo para que cualquiera pueda hacer lo que quiera. Eso es lo que hacen los autores de software libre[1].
 
 ----
 
@@ -100,7 +100,7 @@ Una vez tenemos claro que queremos publicar nuestro contenido con licencia libre
 
 ## ¿Qué tengo que hacer para publicar mi contenido bajo una licencia más restrictiva?
 
-Si ninguna de las licencias anteriores se ajusta a nuestras preferencias (por ejemplo, si queremos excluir el uso comercial), habría que indicarlo claramente para evitar confusiones. Aunque nuestro contenido sólo constituya una pequeña parte del proyecto, la distribución del software al completo se ve condicionada por la parte más restrictiva del conjunto. Por ese motivo conviene mencionar los términos con el resto de personas del equipo antes de integrar nuestro contenido, para asegurarnos de que se llega a un acuerdo.
+Si ninguna de las licencias anteriores se ajusta a nuestras preferencias (por ejemplo, si queremos excluir el uso comercial), habría que indicarlo claramente para evitar confusiones. Aunque nuestro contenido sólo constituya una pequeña parte del proyecto, la distribución del software al completo se ve condicionada por la parte más restrictiva del conjunto. Por ese motivo conviene hablar de los términos con el resto de personas del equipo antes de integrar nuestro contenido, para asegurarnos de que se llega a un acuerdo.
 
 Es recomendable establecer las intenciones, permisos y licencias durante la fase de pre-producción de un proyecto, antes de empezar a publicar el código, y preferiblemente, antes de empezar a crear contenido.
 
