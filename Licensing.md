@@ -51,7 +51,7 @@ Hay algunas situaciones que se derivan de lo anterior, pero conviene insistir en
 
 * El código fuente tiene que estar disponible, no sólo el programa ejecutable. Eso incluye también los _assets_ en formato editable.
 
-* No hay necesidad de pedir permiso a los autores originales. El permiso ya está concedido por la licencia y nadie tendría obligación preguntar.
+* No hay necesidad de pedir permiso a los autores originales. El permiso ya está concedido por la licencia y nadie tendría obligación preguntar antes de utilizarlo.
 
 * El contenido, o partes del mismo, podría distribuirse en una web con publicidad, o venderse en una tienda por parte de terceros[1]. Por tanto, personas ajenas al desarrollo podrían beneficiarse económicamente sin que los autores originales reciban compensación alguna[2].
 
@@ -69,7 +69,7 @@ Un ejemplo cercano: [Godot](https://godotengine.org/) se distribuye con licencia
 
 **[1]** Como ya mencionamos en otra nota al pie anterior, una licencia libre no puede discriminar a nadie, ni tampoco el tipo de uso que se hará de la obra (lo que incluye el uso comercial).
 
-**[2]** Nintendo utiliza software libre dentro de algunas de sus consolas y saca partido comercial de ello, sin que los autores originales reciban compensación por parte de Nintendo. Muchas televisiones modernas llevan software libre internamente. [Android](https://source.android.com/) lleva el núcleo Linux, y está extendido por innumerables aparatos por todo el mundo. Miles de empresas utilizan [Apache](https://www.apache.org/) comercialmente para sus servidores web. Las grandes empresas tecnológicas como Google o Facebook utilizan software libre en su infraestructura de servidores para proporcionar sus servicios, y en ocasiones contribuyen creando y publicando más software libre.
+**[2]** Nintendo utiliza software libre dentro de algunas de sus consolas y saca partido comercial de ello, sin que los autores originales reciban compensación por parte de Nintendo. Muchas televisiones modernas llevan software libre internamente. [Android](https://source.android.com/) lleva el [núcleo Linux](https://www.kernel.org/), y está extendido por innumerables aparatos por todo el mundo. Miles de empresas utilizan [Apache](https://www.apache.org/) comercialmente para sus servidores web. Las grandes empresas tecnológicas como Google o Facebook utilizan software libre en su infraestructura de servidores para proporcionar sus servicios, y en ocasiones contribuyen creando y publicando más software libre.
 
 **[3]** Software privativo es el concepto opuesto a software libre.
 
@@ -83,7 +83,7 @@ Sin embargo, si integramos contenido restrictivo dentro de un proyecto abierto, 
 
 ## ¿Qué tengo que hacer para publicar mi contenido bajo una licencia libre?
 
-Escribir un texto de licencia es complicado, especialmente si no somos expertos en asuntos legales. Para facilitarnos la tarea, existen ciertas licencias que se han creado con el fin de ser utilizadas en software libre, sin necesidad de escribir un texto de licencia propio.
+Escribir un texto de licencia es complicado, especialmente si no somos expertos en asuntos legales. Para facilitarnos la tarea, existen ciertas licencias de uso público que se han creado con el fin de que cualquiera pueda incorporarlas a sus trabajos, sin necesidad de escribir un texto de licencia propio.
 
 Una vez tenemos claro que queremos publicar nuestro contenido con licencia libre, sólo queda elegir la licencia y adjuntar un archivo de texto en el repositorio para indicar los autores y las licencias correspondientes.
 
