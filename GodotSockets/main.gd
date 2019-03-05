@@ -1,42 +1,62 @@
 extends Node
 
-var udp
+var server = WebSocketServer.new()
+var client_id
+var client
 var pid
-var dest_ip
-var dest_port
 
 func _ready():
-	udp = PacketPeerUDP.new()
-	var port
-	for n in range(2000, 65535):
-		var err = udp.listen(n, "127.0.0.1")
-		if err == OK:
-			port = n
-			break
-		elif n == 65535:
-			get_tree().quit()
+	var port = _listen()
+	if port == -1:
+		get_tree().quit()
+	server.connect("client_connected", self, "_client_connected")
+	server.connect("client_disconnected", self, "_client_disconnected")
+	server.connect("data_received", self, "_data_received")
 
-	pid = OS.execute("./subprocess.py", [str(port)], false)
+	pid = OS.execute("./game-subprocess.py", [str(port)], false)
 
-func _process(delta):
-	while udp.get_available_packet_count() > 0:
-		var packet = udp.get_packet().get_string_from_ascii()
+func _listen():
+	for port in range(2000, 65535):
+		if server.listen(port) == OK:
+			print("Server listening on port ", port)
+			return port
+	return -1
 
-		if packet.begins_with("ready"):
-			dest_ip = udp.get_packet_ip()
-			dest_port = udp.get_packet_port()
-			udp.set_dest_address(dest_ip, dest_port)
-			udp.put_packet("continue".to_ascii())
+func _exit_tree():
+	server.stop()
+	if pid:
+		print("Killing subprocess with PID ", pid)
+		#warning-ignore:return_value_discarded
+		OS.kill(pid)
 
-		elif packet.begins_with("move_to "):
+func _client_connected(id, protocol):
+	if client:
+		server.disconnect_peer(id)
+
+	print("Client connected, address: %s port: %s" % [server.get_peer_address(id), server.get_peer_port(id)])
+	client_id = id
+	client = server.get_peer(id)
+	client.put_packet("continue".to_ascii())
+
+func _client_disconnected(id, was_clean_close):
+	if client and client_id == id:
+		client = null
+		print("Client disconnected")
+
+#warning-ignore:unused_argument
+func _data_received(id):
+	var packet
+	while client.get_available_packet_count() > 0:
+		packet = client.get_packet().get_string_from_ascii()
+
+		if packet.begins_with("move_to "):
 			var to = packet.split(" ")[1].split(",")
 			$Cube.move_to(int(to[0]), int(to[1]))
 
-func _notification(what):
-	if what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST:
-		print("Killing subprocess with PID ", pid)
-		OS.kill(pid)
-		get_tree().quit()
+func _process(delta):
+	if server.is_listening():
+		server.poll()
 
 func _on_cube_move_completed():
-	udp.put_packet("continue".to_ascii())
+	if client:
+		client.put_packet("continue".to_ascii())
