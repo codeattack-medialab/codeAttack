@@ -4,19 +4,21 @@ Este documento contiene las normas de estilo predeterminadas. Cada proyecto pued
 
 ## Idiomas
 
-La documentación interna para el desarrollo la escribiremos en el idioma preferido por los integrantes del equipo, que en codeAttack será generalmente en español.
+La documentación interna para el desarrollo[1] la escribiremos en el idioma preferido por los integrantes del equipo, que en codeAttack será generalmente en español.
 
-El código de programación estará en inglés (nombres de funciones, variables, nodos, clases...)[1]. La historia de cambios en el programa de control de versiones se escribirá en inglés.
+El código de programación estará en inglés (nombres de funciones, variables, nodos, clases...)[2]. La historia de cambios en el programa de control de versiones se escribirá en inglés.
 
-Los comentarios dentro de los scripts son un caso particular, puesto que podrían considerarse documentación del proyecto. Para que sea homogéneo con el resto del script, utilizaremos inglés, pero recomendamos mantenerlos breves. Cuando sea necesario añadir comentarios extensos[2], los escribiremos en archivos separados, como parte de la documentación del proyecto.
+Los comentarios dentro de los scripts son un caso particular, puesto que podrían considerarse documentación del proyecto. Para que sea homogéneo con el resto del script, utilizaremos inglés, pero recomendamos mantenerlos breves. Cuando sea necesario añadir comentarios extensos[3], los escribiremos en archivos separados, como parte de la documentación del proyecto (y por tanto, pueden ser en español).
 
-El idioma o idiomas que el juego presentará al usuario se decidirá para cada proyecto. Si el juego está hecho en Godot, utilizaremos los [mecanismos de internacionalización](https://docs.godotengine.org/en/latest/tutorials/i18n/internationalizing_games.html). De esa manera, se facilitará la traducción a distintos idiomas en un futuro, si fuese necesario.
+El idioma o idiomas que el juego presentará al usuario se decidirá individualmente para cada proyecto. Si el juego está hecho en Godot, utilizaremos los [mecanismos de internacionalización](https://docs.godotengine.org/en/latest/tutorials/i18n/internationalizing_games.html). De esa manera, se facilitará la traducción a distintos idiomas en un futuro, si fuese necesario.
 
 ----
 
-**[1]** Las bibliotecas de funciones estándar de los lenguajes de programación normalmente están en inglés, y así evitamos mezclar idiomas y terminología dentro del código.
+**[1]** Eso incluye, entre otras cosas, el documento de diseño del juego (GDD, _Game Design Document_), explicaciones de algoritmos, bocetos, y cualquier documento que hagamos para coordinar el desarrollo.
 
-**[2]** Por ejemplo, cuando los algoritmos utilizados no son triviales y requieren de una explicación detallada.
+**[2]** Las bibliotecas de funciones estándar de los lenguajes de programación normalmente están en inglés, y así evitamos mezclar idiomas y terminología dentro del código.
+
+**[3]** Por ejemplo, cuando los algoritmos utilizados no son triviales y requieren de una explicación detallada.
 
 ## Estructura del repositorio
 
@@ -26,6 +28,7 @@ Nombre               | Contenido
 -------------------- | ---------
 assets/              |
 documentation/       |
+game/                |
 readme.md            |
 license.md           |
 
