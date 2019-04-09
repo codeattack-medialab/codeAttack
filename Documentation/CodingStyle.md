@@ -2,15 +2,15 @@
 
 Este documento contiene las normas de estilo predeterminadas. Cada proyecto puede tener sus propias normas y preferencias, pero seguiremos éstas cuando no se hayan establecido otras.
 
-# Nombres de archivos
+## Nombres de archivos
 
 NOTA: Falta por escribir esta sección.
 
-# Estructura del repositorio
+## Estructura del repositorio
 
 NOTA: Falta por escribir esta sección.
 
-# Programación en GDScript
+## Programación en GDScript
 
 Utilizaremos como base las [normas de estilo](https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html) propuestas oficialmente por Godot para GDScript. Los nombres de nodos y funciones proporcionadas por Godot se ajustan a ese estilo, y si nosotros utilizamos el mismo, evitaremos mezclar estilos y el código se verá más uniforme. En resumen:
 
@@ -24,7 +24,7 @@ Utilizaremos como base las [normas de estilo](https://docs.godotengine.org/en/la
 
 * Nombres de archivos GDScript en snake_case con la terminación ".gd"
 
-# Idiomas
+## Idiomas
 
 La documentación interna para el desarrollo la escribiremos en el idioma preferido por los integrantes del equipo, que en codeAttack será generalmente en español.
 
