@@ -37,7 +37,7 @@ license.md           |
 
 ----
 
-**[1]** Es el equivalente al código fuente, pero para el contenido gráfico y sonoro. Puede contener archivos de audio multipista sin comprimir, imágenes en su máxima resolución, etc.
+**[1]** Es el equivalente al código fuente, pero para el contenido gráfico y sonoro. Puede contener archivos de audio multipista sin comprimir, imágenes en su máxima resolución, modelos de Blender sin exportar, etc. En general, aquí está el contenido en el formato más adecuado para ser editado, mientras que el directorio de juego, está en el formato más adecuado para ser manejado por el motor del juego.
 
 ## Programación en GDScript
 
