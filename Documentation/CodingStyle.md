@@ -26,11 +26,18 @@ Los nombres de archivos del repositorio estarán en inglés, en formato snake_ca
 
 Nombre               | Contenido
 -------------------- | ---------
-assets/              |
+assets_src/          | Archivos que sirven para generar los _assets_ del juego[1]
 documentation/       |
 game/                |
+game/project.godot   | Proyecto de Godot
+game/sounds/         | Efectos de sonido, excepto la música
+game/music/          | Música
 readme.md            |
 license.md           |
+
+----
+
+**[1]** Es el equivalente al código fuente, pero para el contenido gráfico y sonoro. Puede contener archivos de audio multipista sin comprimir, imágenes en su máxima resolución, etc.
 
 ## Programación en GDScript
 
