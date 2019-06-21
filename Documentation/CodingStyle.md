@@ -27,17 +27,22 @@ Los nombres de archivos del repositorio estarán en inglés, en formato snake_ca
 Nombre               | Contenido
 -------------------- | ---------
 assets_src/          | Archivos que sirven para generar los _assets_ del juego[1]
+docs/                | Directorio que GitHub puede usar para hostear GitHub Pages[2]
 documentation/       |
 game/                |
 game/project.godot   | Proyecto de Godot
 game/sounds/         | Efectos de sonido, excepto la música
 game/music/          | Música
+game/fonts/          | Fuentes tipográficas
+game/textures/       | Versión importada de los assets gráficos (tiles, sprites, texturas, ...)
 readme.md            |
 license.md           |
 
 ----
 
 **[1]** Es el equivalente al código fuente, pero para el contenido gráfico y sonoro. Puede contener archivos de audio multipista sin comprimir, imágenes en su máxima resolución, modelos de Blender sin exportar, etc. En general, aquí está el contenido en el formato más adecuado para ser editado, mientras que el directorio de juego, está en el formato más adecuado para ser manejado por el motor del juego.
+
+**[2]** https://pages.github.com/
 
 ## Programación en GDScript
 
