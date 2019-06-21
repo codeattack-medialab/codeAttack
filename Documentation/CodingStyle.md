@@ -4,11 +4,11 @@ Este documento contiene las normas de estilo predeterminadas. Cada proyecto pued
 
 ## Idiomas
 
-La documentación interna para el desarrollo[1] la escribiremos en el idioma preferido por los integrantes del equipo, que en codeAttack será generalmente en español.
+La documentación interna para el desarrollo<sup>[1]</sup> la escribiremos en el idioma preferido por los integrantes del equipo, que en codeAttack será generalmente en español.
 
-El código de programación estará en inglés (nombres de funciones, variables, nodos, clases...)[2]. La historia de cambios en el programa de control de versiones se escribirá en inglés.
+El código de programación estará en inglés (nombres de funciones, variables, nodos, clases...)<sup>[2]</sup>. La historia de cambios en el programa de control de versiones se escribirá en inglés.
 
-Los comentarios dentro de los scripts son un caso particular, puesto que podrían considerarse documentación del proyecto. Para que sea homogéneo con el resto del script, utilizaremos inglés, pero recomendamos mantenerlos breves. Cuando sea necesario añadir comentarios extensos[3], los escribiremos en archivos separados, como parte de la documentación del proyecto (y por tanto, pueden ser en español).
+Los comentarios dentro de los scripts son un caso particular, puesto que podrían considerarse documentación del proyecto. Para que sea homogéneo con el resto del script, utilizaremos inglés, pero recomendamos mantenerlos breves. Cuando sea necesario añadir comentarios extensos<sup>[3]</sup>, los escribiremos en archivos separados, como parte de la documentación del proyecto (y por tanto, pueden ser en español).
 
 El idioma o idiomas que el juego presentará al usuario se decidirá individualmente para cada proyecto. Si el juego está hecho en Godot, utilizaremos los [mecanismos de internacionalización](https://docs.godotengine.org/en/latest/tutorials/i18n/internationalizing_games.html). De esa manera, se facilitará la traducción a distintos idiomas en un futuro, si fuese necesario.
 
@@ -21,22 +21,23 @@ El idioma o idiomas que el juego presentará al usuario se decidirá individualm
 **[3]** Por ejemplo, cuando los algoritmos utilizados no son triviales y requieren de una explicación detallada.
 
 ## Estructura del repositorio
-
-Los nombres de archivos del repositorio estarán en inglés, en formato snake_case.
+La estructura a continuación debe servir de orientación a la hora de configurar un nuevo proyecto. La estructura de directorios completa y otros detalles dependerán de las necesidades del proyecto (e.g.: jerarquía por escenas VS jerarquía según extensión de los assets). Estos detalles **deberán** estar especificados en la documentación/wikis de cada proyecto.
 
 Nombre               | Contenido
 -------------------- | ---------
-assets_src/          | Archivos que sirven para generar los _assets_ del juego[1]
-docs/                | Directorio que GitHub puede usar para hostear GitHub Pages[2]
+assets_src/          | Archivos que sirven para generar los _assets_ del juego<sup>[1]</sup>
+docs/                | Directorio que GitHub puede usar para hostear GitHub Pages<sup>[2]</sup>
 documentation/       |
 game/                |
 game/project.godot   | Proyecto de Godot
 game/sounds/         | Efectos de sonido, excepto la música
 game/music/          | Música
 game/fonts/          | Fuentes tipográficas
-game/textures/       | Versión importada de los assets gráficos (tiles, sprites, texturas, ...)
+game/textures/       | Versiones importadas de los assets gráficos (tiles, sprites, texturas, ...)
 readme.md            |
 license.md           |
+
+Los nombres de archivos del repositorio estarán en inglés, en formato snake_case.
 
 ----
 
