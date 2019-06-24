@@ -30,6 +30,7 @@ docs/                | Directorio que GitHub puede usar para hostear GitHub Page
 documentation/       |
 game/                |
 game/project.godot   | Proyecto de Godot
+game/global.gd       | Script _singleton_ con el código de transición de escenas y datos globales<sup>[3]</sup>
 game/sounds/         | Efectos de sonido, excepto la música
 game/music/          | Música
 game/fonts/          | Fuentes tipográficas
@@ -44,6 +45,8 @@ Los nombres de archivos del repositorio estarán en inglés, en formato snake_ca
 **[1]** Es el equivalente al código fuente, pero para el contenido gráfico y sonoro. Puede contener archivos de audio multipista sin comprimir, imágenes en su máxima resolución, modelos de Blender sin exportar, etc. En general, aquí está el contenido en el formato más adecuado para ser editado, mientras que el directorio de juego, está en el formato más adecuado para ser manejado por el motor del juego.
 
 **[2]** https://pages.github.com/
+
+**[3]** Si el proyecto lo requiere, puede haber más scripts _singleton_ con otros nombres, que contengan funciones o datos globales.
 
 ## Programación en GDScript
 
