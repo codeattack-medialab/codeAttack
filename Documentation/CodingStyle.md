@@ -27,7 +27,6 @@ Nombre               | Contenido
 -------------------- | ---------
 assets_src/          | Archivos que sirven para generar los _assets_ del juego<sup>[1]</sup>
 docs/                | Directorio que GitHub puede usar para hostear GitHub Pages<sup>[2]</sup>
-documentation/       |
 game/                |
 game/project.godot   | Proyecto de Godot
 game/global.gd       | Script _singleton_ con el código de transición de escenas y datos globales<sup>[3]</sup>
