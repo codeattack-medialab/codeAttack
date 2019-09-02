@@ -4,7 +4,7 @@ Godot tiene nodos que facilitan la creación de objetos con física, que tienen 
 
 Una de las preguntas que nos encontramos frecuentemente es: __¿Qué tipo de nodos son los más apropiados para el juego que estoy diseñando?__ Este documento pretende ayudar a tomar esa decisión.
 
-![](/Documentation/Images/PhysicsObjects.png)
+![](Images/PhysicsObjects.png)
 
 * RigidBody2D
   * Objetos autónomos: bola de un pinball
