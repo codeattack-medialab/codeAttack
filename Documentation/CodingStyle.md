@@ -25,7 +25,7 @@ La estructura a continuación debe servir de orientación a la hora de configura
 
 Nombre               | Contenido
 -------------------- | ---------
-assets_src/          | Archivos que sirven para generar los _assets_ del juego<sup>[1]</sup>
+assets/              | Archivos que sirven para generar los _assets_ del juego<sup>[1]</sup>
 docs/                | Directorio que GitHub puede usar para hostear GitHub Pages<sup>[2]</sup>
 game/                |
 game/project.godot   | Proyecto de Godot
