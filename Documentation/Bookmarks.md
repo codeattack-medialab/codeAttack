@@ -5,21 +5,21 @@ Colección de enlaces a programas, herramientas y utilidades relacionados con vi
 ## Edición de imágenes
 
 ### GIMP
-[[/Documentation/Images/Screenshots/gimp.png]]
+![](Images/Screenshots/gimp.png)
 
 Manipulación de imágenes y fotografías.
 
 https://www.gimp.org/
 
 ### Krita
-[[/Documentation/Images/Screenshots/krita.png]]
+![](Images/Screenshots/krita.png)
 
 Dibujo, ilustración y diseño gráfico.
 
 https://krita.org/
 
 ### Inkscape
-[[/Documentation/Images/Screenshots/inkscape.png]]
+![](Images/Screenshots/inkscape.png)
 
 Dibujo vectorial.
 
