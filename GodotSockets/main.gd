@@ -14,8 +14,11 @@ func _ready():
 	server.connect("data_received", self, "_data_received")
 
 	# Llamada a script de python que manda posiciones aleatorias por Websockets
-	pid = OS.execute("./game-subprocess.py", [str(port)], false) # LINUX
-	# pid = OS.execute("python", ["game-subprocess.py", str(port)], false) # Windows
+	match OS.get_name():
+		"Windows":
+			pid = OS.execute("python", ["game-subprocess.py", str(port)], false)
+		_:
+			pid = OS.execute("./game-subprocess.py", [str(port)], false)
 
 func _listen():
 	for port in range(2000, 65535):
