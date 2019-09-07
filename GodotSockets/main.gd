@@ -13,7 +13,9 @@ func _ready():
 	server.connect("client_disconnected", self, "_client_disconnected")
 	server.connect("data_received", self, "_data_received")
 
-	pid = OS.execute("./game-subprocess.py", [str(port)], false)
+	# Llamada a script de python que manda posiciones aleatorias por Websockets
+	pid = OS.execute("./game-subprocess.py", [str(port)], false) # LINUX
+	# pid = OS.execute("python", ["game-subprocess.py", str(port)], false) # Windows
 
 func _listen():
 	for port in range(2000, 65535):
