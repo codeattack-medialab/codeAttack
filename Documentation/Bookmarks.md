@@ -58,3 +58,14 @@ http://kenney.nl/assets
 https://cc0textures.com/
 
 https://3dtextures.me/
+
+## Sonido y música
+
+### QJackCtl
+Interfaz para lanzar Jack y gestionar las conexiones de audio.
+
+https://qjackctl.sourceforge.io/
+
+### Calf Studio Gear
+
+https://calf-studio-gear.org/
